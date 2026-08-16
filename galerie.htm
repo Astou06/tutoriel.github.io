@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIE</title>
+    <!--lien google front-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.htm">
+                <img src="images/logo.jpg" alt="Logo" height="100">
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.htm">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.htm">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galerie.htm">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.htm">Équipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.htm">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--section galerie-->
+    <section class="py-5" style="margin-top: 76px;">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Notre Galerie</h2>
+            <div class="row g-3">
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G1.jpg" alt="Galerie 1" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G2.jpg" alt="Galerie 2" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G3.jpg" alt="Galerie 3" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G4.jpg" alt="Galerie 4" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G5.jpg" alt="Galerie 5" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G6.jpg" alt="Galerie 6" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G7.jpg" alt="Galerie 7" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G8.jpg" alt="Galerie 8" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G9.jpg" alt="Galerie 9" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G10.jpg" alt="Galerie 10" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G11.jpg" alt="Galerie 11" class="img-fluid rounded gallery-img">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/G12.jpg" alt="Galerie 12" class="img-fluid rounded gallery-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--pied de page-->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; 2026 NotreEntreprise. Tous droits réservés.</p>
+    </footer>
+
+    <!-- lien js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <a href="contact.htm">Aller à Contact</a><br>
+    <a href="equipe.htm">Aller à Equipe</a><br>
+    <a href="index.htm">Aller à Accueil</a><br>
+    <a href="services.htm">Aller à Services</a><br>
+    <!--structure de la section formulaire-->  
+<section class="py-5" style="margin-top: 76px;">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Contactez-nous</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!--nom et prenom-->
+        <form>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="nom" class="form-label">Nom</label>
+      <input type="text" class="form-control" id="nom" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="prenom" class="form-label">Prénom</label>
+      <input type="text" class="form-control" id="prenom" required>
+    </div>
+  </div>
+  <!--email et telephone-->
+    <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="telephone" class="form-label">Téléphone</label>
+      <input type="tel" class="form-control" id="telephone">
+    </div>
+  </div>
+  <!--sujet-->
+ <div class="mb-3">
+    <label for="sujet" class="form-label">Sujet</label>
+    <input type="text" class="form-control" id="sujet" required>
+  </div>
+  <!--zone de text plus grande-->
+ <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" id="message" rows="5" required></textarea>
+  </div>
+  <!--boutton submit-->
+ <div class="text-center">
+    <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+  </div>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+<!--stucture de bases du peids de pages(sur toute les pages)-->
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+    <!--logo et description-->
+    <div class="col-md-3">
+  <img src="images/logo.jpg" alt="Logo" height="50" class="mb-3">
+  <p>faites confiance à notre entreprise pour la realisation de vos projet tech.Avec nous du concept à la réalisation!</p>
+</div>
+<!--contact rapide (c'est pas demande dans le projet)-->
+  <div class="col-md-3">
+  <h5 class="mb-3">Contact</h5>
+  <p><i class="bi bi-geo-alt-fill me-2"></i>Dakar, Sénégal</p>
+  <p><i class="bi bi-envelope-fill me-2"></i>contact@entreprise.com</p>
+  <p><i class="bi bi-telephone-fill me-2"></i>+221 77 777 77 77</p>
+</div>  
+<!--reseau sociaux-->
+  <div class="col-md-3">
+  <h5 class="mb-3">Suivez-nous</h5>
+  <a href="#" class="text-light fs-4 me-3"><i class="bi bi-facebook"></i></a>
+  <a href="#" class="text-light fs-4 me-3"><i class="bi bi-linkedin"></i></a>
+  <a href="#" class="text-light fs-4 me-3"><i class="bi bi-twitter-x"></i></a>
+  <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+</div>
+<!--copyright-->
+  <hr class="border-secondary mt-4">
+<p class="text-center mb-0">&copy; 2026 NotreEntreprise. </p>  
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

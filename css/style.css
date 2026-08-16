@@ -1,0 +1,66 @@
+:root {
+  --couleur-principale: #2563eb;
+  --couleur-secondaire: #1e293b;
+  --couleur-accent: #f59e0b;
+}
+
+/* Base de la page */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 76px;
+}
+
+/* image du banner ou image de fond */
+.hero {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: var(--couleur-secondaire);
+}
+
+/* pour que les images des cards soient à la même taille */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* partie 7 - uniformiser les images galerie */
+.gallery-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* partie 8 - témoignages */
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
